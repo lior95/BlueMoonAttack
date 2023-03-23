@@ -1,9 +1,10 @@
 from abc import ABC, abstractmethod
 
 class Moon(ABC):
-    def __init__(self,attacks,geoPosition):
+    def __init__(self,name,attacks,geoPossition):
+        self.name = name
         self.attacks = attacks
-        self.geoPosition = geoPosition
+        self.geoPossition = geoPossition
 
     @abstractmethod
     def createAttacks(self):
