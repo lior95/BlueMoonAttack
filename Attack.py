@@ -13,3 +13,4 @@ class Attack():
 
 
 
+def main():
